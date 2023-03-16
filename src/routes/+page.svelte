@@ -1,2 +1,5 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Button links</h1>
+<section class="auth-buttons">
+    <a href="/login" class="btn btn-primary text-2xl">Login</a>
+    <a href="/register" class="btn btn-secondary">Register</a>
+</section>
