@@ -4,6 +4,6 @@
 </script>
 
 <Header />
-<main>
+<main class='flex justify-center mt-4'>
     <slot />
 </main>
