@@ -15,7 +15,7 @@
 
   </script>
   
-  <form on:submit={handleSubmit} class='flex flex-col border-2 w-1/3 bg-slate-300 gap-2 p-2 items-center'>
+  <form on:submit={handleSubmit} class='flex flex-col border-2 rounded w-1/3 gap-2 p-2 items-center'>
     <label class={labelClass}>
       First Name
       <input class={inputClass} type="text" bind:value={firstName} required>
@@ -32,6 +32,6 @@
       Password
       <input class={inputClass} type="password" bind:value={password} required>
     </label>
-    <button type="submit">Login</button>
+    <button class='btn btn-sm btn-secondary' type="submit">Register</button>
   </form>
   

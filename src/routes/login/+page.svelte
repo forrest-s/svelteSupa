@@ -12,7 +12,7 @@
     }
   </script>
   
-  <form on:submit={handleSubmit} class='flex flex-col border-2 w-1/4 bg-slate-300 gap-1 p-2 items-center'>
+  <form on:submit={handleSubmit} class='flex flex-col rounded border-2 w-1/4 gap-1 p-2 items-center'>
     <label class={labelClass}>
       Email:
       <input class={inputClass} type="email" bind:value={email} required>
@@ -21,6 +21,6 @@
       Password:
       <input class={inputClass} type="password" bind:value={password} required>
     </label>
-    <button type="submit">Login</button>
+    <button class='btn btn-sm btn-primary' type="submit">Login</button>
   </form>
   
