@@ -5,7 +5,7 @@
     let password = '';
 
     let labelClass = 'flex flex-col'
-    let inputClass = 'rounded'
+    let inputClass = 'rounded bg-secondary'
   
     function handleSubmit(event) {
       event.preventDefault();
@@ -15,7 +15,7 @@
 
   </script>
   
-  <form on:submit={handleSubmit} class='flex flex-col border-2 rounded w-1/3 gap-2 p-2 items-center'>
+  <form on:submit={handleSubmit} class='bg-accent flex flex-col border-2 rounded w-1/3 gap-2 p-2 items-center'>
     <label class={labelClass}>
       First Name
       <input class={inputClass} type="text" bind:value={firstName} required>
@@ -32,6 +32,6 @@
       Password
       <input class={inputClass} type="password" bind:value={password} required>
     </label>
-    <button class='btn btn-sm btn-secondary' type="submit">Register</button>
+    <button class='btn btn-sm btn-primary' type="submit">Register</button>
   </form>
   

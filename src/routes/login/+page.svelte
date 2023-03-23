@@ -3,7 +3,7 @@
     let password = '';
   
     let labelClass = 'flex flex-col'
-    let inputClass = 'rounded'
+    let inputClass = 'rounded bg-accent'
     
     function handleSubmit(event) {
       event.preventDefault();
@@ -12,7 +12,7 @@
     }
   </script>
   
-  <form on:submit={handleSubmit} class='flex flex-col rounded border-2 w-1/4 gap-1 p-2 items-center'>
+  <form on:submit={handleSubmit} class='bg-secondary flex flex-col rounded border-2 w-1/4 gap-1 p-2 items-center'>
     <label class={labelClass}>
       Email:
       <input class={inputClass} type="email" bind:value={email} required>
