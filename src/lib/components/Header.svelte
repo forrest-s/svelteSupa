@@ -2,6 +2,7 @@
     <h1 class='bg-accent'>logo</h1>
     <section>
         <a href='/' class='btn btn-sm btn-primary'>Home</a>
+        <a href='/about' class='btn btn-sm btn-outline'>About</a>
         <a href="/login" class="btn btn-sm btn-outline">Login</a>
         <a href="/register" class="btn btn-sm btn-outline">Register</a>
     </section>
