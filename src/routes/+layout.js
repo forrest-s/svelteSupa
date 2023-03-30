@@ -12,7 +12,7 @@ import {
       supabaseKey: PUBLIC_SUPABASE_ANON_KEY,
       event: { fetch },
       serverSession: data.session
-    });rs
+    });
   
     const {
       data: { session }
