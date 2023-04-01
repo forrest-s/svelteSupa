@@ -1,4 +1,4 @@
-<nav class='flex items-center h-16 border-b-2 justify-between p-2'>
+<nav class='flex items-center h-16 border-b-2 border-primary justify-between p-2'>
     <h1 class='bg-accent'>logo</h1>
     <section>
         <a href='/' class='btn btn-sm btn-primary'>Home</a>
